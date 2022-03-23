@@ -17,9 +17,20 @@ header nav{
 	font-size: 20px;
 	font-weight: 300;
 	border-radius: 10px;
-	
+	}
+header .flexMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 40px;
+  font-size: 1.2rem; }
 
-}
+.flexMenu li a {
+  text-decoration: none;
+  color: #bdbdbd; }
+
  header nav a img{
 		width: 500px;
 	    height: 300px;
